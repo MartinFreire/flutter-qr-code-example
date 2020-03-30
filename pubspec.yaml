@@ -1,5 +1,5 @@
 name: fireship_barcode_scanner
-description: A new Flutter project.
+description: Flutter QR Codes Example
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
@@ -24,16 +24,17 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
 
-  # Barcode Plugin
+  # Plugin to Scan Barcodes with the Camera
   barcode_scan: any
-  barcode: ^1.5.0
+  # Plugin to create QR Codes
   qr_flutter: ^3.1.0
-
+  # Needed to create a Temp Image to Share
   path_provider: any
-
+  # Used to show the validation of the Code
   encrypt: any
-
-
+  # Plugin to Share Text and Images (only the last version has Image Share capabilities)
+  # https://github.com/pboos/plugins/tree/feature/shareFile/packages/share
+  # https://github.com/flutter/plugins/pull/970
   share:
     git:
       url: https://github.com/pboos/plugins.git

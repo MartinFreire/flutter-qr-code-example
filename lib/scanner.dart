@@ -1,6 +1,9 @@
 import 'package:flutter/services.dart';
 import 'package:barcode_scan/barcode_scan.dart';
 
+
+/// Open the Camera and scans a QR Code, if the User cancels the scan is
+/// interpreted as a reset an the value is set to empty String
 Future<String> scanBarcode() async {
   String scanResult;
   try {
