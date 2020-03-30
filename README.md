@@ -6,7 +6,7 @@ Our goal is to make a QR Code temporary access key app in Flutter. The app must 
 
 ## End Result
 
-![Screenshots](assets/full-screenshots.jpg2)
+![Screenshots](assets/full-screenshots.jpg)
 
 
 ## Steps
