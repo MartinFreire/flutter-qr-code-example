@@ -46,9 +46,7 @@ Our goal is to make a QR Code temporary access key app in Flutter. The app must 
      # Plugin to Share Text and Images
      share: ^0.6.3
    ```
-   The `share` package just recently added support to [share images](https://github.com/flutter/plugins/pull/970), but at the time of writing this the normal import method doesn't contain that functionality.
-   
-   So we need to target the specific [commit](https://github.com/pboos/plugins/commit/0fb2f9afd29f7a8812c730f7cc7ec7b4eb9fae55) (for now):
+   The `share` package just recently added support to [share images](https://github.com/flutter/plugins/pull/970), but at the time of writing this the normal import method doesn't contain that functionality. So we need to target the specific [commit](https://github.com/pboos/plugins/commit/0fb2f9afd29f7a8812c730f7cc7ec7b4eb9fae55) (for now):
 
    ```
      # Plugin to Share Text and Images (only the last version has Image Share capabilities)
